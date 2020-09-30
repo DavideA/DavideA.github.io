@@ -50,6 +50,46 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+		<tr onmouseout="der_stop()" onmouseover="der_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+			                  <img class="two" src='images/der.jpg'>
+
+                <div class="two" id='der_image'><img src='images/der.gif'></div>
+              </div>
+              <script type="text/javascript">
+                function der_start() {
+                  document.getElementById('der_image').style.opacity = "1";
+                }
+
+                function der_stop() {
+                  document.getElementById('der_image').style.opacity = "0";
+                }
+                der_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2004.07211">
+                <papertitle>Dark Experience for General Continual Learning</papertitle>
+              </a>
+              <br>
+			  Pietro Buzzega,
+			  Matteo Boschini,
+			  Angelo Porrello,
+              <strong>Davide Abati</strong>,
+			  Simone Calderara
+              <br>
+              <em>NeurIPS</em>, 2020
+		<br>
+              <a href="https://arxiv.org/abs/2004.07211">arXiv</a> &nbsp/&nbsp
+              <a href="data/der.bib">bibtex</a> &nbsp/&nbsp
+			  <a href="">code</a>
+              <br>
+              <p></p>
+              <p>We tackle general continual learning, where an agent is required to learn multiple tasks in a sequence under minimal assumptions about their nature. 
+			     We run an extensive comparison of many existing methods and introduce a simple model based on knowledge distillation outperforming all of them.</p>
+            </td>
+          </tr>
 		<tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -177,7 +217,7 @@
 			  Simone Calderara,
 			  Rita Cucchiara
               <br>
-              <em>TPAMI</em>, 2018
+              <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 2018
               <br>
               <a href="https://arxiv.org/abs/1705.03854">arXiv</a> &nbsp/&nbsp
 			  <a href="http://aimagelab.ing.unimore.it/dreyeve">dataset</a> &nbsp/&nbsp
@@ -231,6 +271,7 @@
 			  I currently serve as a reviewer for the following journals:
             </p>
 			<ul>
+				<li><p>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</p></li>
 				<li><p>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</p></li>
 				<li><p>IEEE Transactions on Multimedia (TMM)</p></li>
 				<li><p>IEEE Transactions on Intelligent Transportation Systems (TITS)</p></li>
